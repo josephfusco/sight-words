@@ -1,0 +1,13 @@
+@import-normalize;
+
+@font-face {
+    font-family: 'KGNeatlyPrintedSpaced';
+    src: url('./fonts/KGNeatlyPrintedSpaced.eot');
+    src: url('./fonts/KGNeatlyPrintedSpaced.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/KGNeatlyPrintedSpaced.svg#KGNeatlyPrintedSpaced') format('svg'),
+        url('./fonts/KGNeatlyPrintedSpaced.ttf') format('truetype'),
+        url('./fonts/KGNeatlyPrintedSpaced.woff') format('woff'),
+        url('./fonts/KGNeatlyPrintedSpaced.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
