@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardWrapper } from 'react-swipeable-cards';
+import { disableBodyScroll } from 'body-scroll-lock';
 import shuffle from 'shuffle-array';
 import Toolbar from 'components/Toolbar';
 import Footer from 'components/Footer';
@@ -15,6 +16,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.loadWords();
+    disableBodyScroll(document);
   };
 
   loadWords = () => {

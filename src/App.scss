@@ -18,7 +18,7 @@ body {
 
   .card_container {
     font-family: $card-font-family;
-    @include font-size(96px);
+    font-size: 96px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,11 +89,12 @@ body {
   cursor: pointer;
   position: fixed;
   z-index: 1000;
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   display: block;
-  width: 200px;
+  width: 300px;
+  max-width: 100%;
   padding: 0.75rem 1rem;
   border-radius: 7px;
   background-color: #30ec86;
