@@ -2,6 +2,7 @@
 
 @font-face {
     font-family: 'KGNeatlyPrintedSpaced';
+    font-display: auto;
     src: url('./fonts/KGNeatlyPrintedSpaced.eot');
     src: url('./fonts/KGNeatlyPrintedSpaced.eot?#iefix') format('embedded-opentype'),
         url('./fonts/KGNeatlyPrintedSpaced.svg#KGNeatlyPrintedSpaced') format('svg'),
