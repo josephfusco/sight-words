@@ -18,12 +18,13 @@ body {
 
   .card_container {
     font-family: $card-font-family;
-    font-size: 96px;
+    font-size: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.1s ease;
-    max-height: 50vh;
+    transition: all 0.15s ease;
+    max-height: 40vh;
+    max-width: 300px;
     box-shadow:
       0 13px 27px -5px rgba(50,50,93,.25),
       0 8px 16px -8px rgba(0,0,0,.3),
@@ -69,9 +70,6 @@ body {
 
   &__correct {
     @include font-size(72px);
-    background-color: #1d1d1d;
-    padding: 2.5rem;
-    border-radius: 20px;
     display: inline-flex;
     font-weight: 700;
     color: #00ff00;
@@ -103,7 +101,6 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin: 1rem auto;
-  max-width: 100%;
   @include font-size(18px);
 }
 
